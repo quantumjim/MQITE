@@ -30,7 +30,7 @@ from BasicFunctions.getQCirc import  getQCirc
 
 
 
-class Hamiltonin():
+class Hamiltonian():
     def __init__(self, Qs, ws, nspins):
         self.Qs = Qs
         self.ws = ws
@@ -58,7 +58,7 @@ class Simulator():
         self.T= T
         self.n_H= n_H
         self.delta = delta 
-        self.hamiltonian =Hamiltonin(Qs, ws, nspins)
+        self.hamiltonian = Hamiltonian(Qs, ws, nspins)
         self.nspins = nspins
         self.shots_amplitude = shots_amplitude
         self.shots_phase = shots_phase
